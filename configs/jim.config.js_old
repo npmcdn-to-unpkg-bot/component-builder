@@ -1,0 +1,9 @@
+module.exports = {
+  entryPath: '/servers/compo_tree',
+  entryDir: 'compo_tree',
+  thisOS: 'u',
+  thisSlash: '/',
+  jsxDir: ['/src/components'],
+  jsxFiles: ['/src/index.jsx','/src/App.jsx'],
+  TLC:['/src/index.jsx']
+};

@@ -1,0 +1,406 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 460,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 24,
+      "end": 50,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 31,
+          "end": 36,
+          "local": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 36,
+            "name": "React"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 42,
+        "end": 49,
+        "value": "react",
+        "raw": "'react'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 51,
+      "end": 84,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 58,
+          "end": 66,
+          "local": {
+            "type": "Identifier",
+            "start": 58,
+            "end": 66,
+            "name": "ReactDOM"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 72,
+        "end": 83,
+        "value": "react-dom",
+        "raw": "'react-dom'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 85,
+      "end": 124,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 94,
+          "end": 102,
+          "imported": {
+            "type": "Identifier",
+            "start": 94,
+            "end": 102,
+            "name": "Provider"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 94,
+            "end": 102,
+            "name": "Provider"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 110,
+        "end": 123,
+        "value": "react-redux",
+        "raw": "'react-redux'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 125,
+      "end": 161,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 134,
+          "end": 145,
+          "imported": {
+            "type": "Identifier",
+            "start": 134,
+            "end": 145,
+            "name": "createStore"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 134,
+            "end": 145,
+            "name": "createStore"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 153,
+        "end": 160,
+        "value": "redux",
+        "raw": "'redux'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 163,
+      "end": 187,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 170,
+          "end": 173,
+          "local": {
+            "type": "Identifier",
+            "start": 170,
+            "end": 173,
+            "name": "App"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 179,
+        "end": 186,
+        "value": "./App",
+        "raw": "'./App'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 188,
+      "end": 221,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 195,
+          "end": 202,
+          "local": {
+            "type": "Identifier",
+            "start": 195,
+            "end": 202,
+            "name": "reducer"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 208,
+        "end": 220,
+        "value": "./reducers",
+        "raw": "'./reducers'"
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 350,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 349,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 270,
+            "name": "store"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 273,
+            "end": 349,
+            "callee": {
+              "type": "Identifier",
+              "start": 273,
+              "end": 284,
+              "name": "createStore"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 285,
+                "end": 292,
+                "name": "reducer"
+              },
+              {
+                "type": "LogicalExpression",
+                "start": 294,
+                "end": 348,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 294,
+                  "end": 318,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 294,
+                    "end": 300,
+                    "name": "window"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 301,
+                    "end": 318,
+                    "name": "devToolsExtension"
+                  },
+                  "computed": false
+                },
+                "operator": "&&",
+                "right": {
+                  "type": "CallExpression",
+                  "start": 322,
+                  "end": 348,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 322,
+                    "end": 346,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 322,
+                      "end": 328,
+                      "name": "window"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 329,
+                      "end": 346,
+                      "name": "devToolsExtension"
+                    },
+                    "computed": false
+                  },
+                  "arguments": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 352,
+      "end": 459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 352,
+        "end": 458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 352,
+          "end": 367,
+          "object": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 360,
+            "name": "ReactDOM"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "render"
+          },
+          "computed": false
+        },
+        "arguments": [
+          {
+            "type": "JSXElement",
+            "start": 371,
+            "end": 421,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 371,
+              "end": 395,
+              "attributes": [
+                {
+                  "type": "JSXAttribute",
+                  "start": 381,
+                  "end": 394,
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "start": 381,
+                    "end": 386,
+                    "name": "store"
+                  },
+                  "value": {
+                    "type": "JSXExpressionContainer",
+                    "start": 387,
+                    "end": 394,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 388,
+                      "end": 393,
+                      "name": "store"
+                    }
+                  }
+                }
+              ],
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 372,
+                "end": 380,
+                "name": "Provider"
+              },
+              "selfClosing": false
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 410,
+              "end": 421,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 412,
+                "end": 420,
+                "name": "Provider"
+              }
+            },
+            "children": [
+              {
+                "type": "Literal",
+                "start": 395,
+                "end": 400,
+                "value": "\n    ",
+                "raw": "\n    "
+              },
+              {
+                "type": "JSXElement",
+                "start": 400,
+                "end": 407,
+                "openingElement": {
+                  "type": "JSXOpeningElement",
+                  "start": 400,
+                  "end": 407,
+                  "attributes": [],
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "start": 401,
+                    "end": 404,
+                    "name": "App"
+                  },
+                  "selfClosing": true
+                },
+                "closingElement": null,
+                "children": []
+              },
+              {
+                "type": "Literal",
+                "start": 407,
+                "end": 410,
+                "value": "\n  ",
+                "raw": "\n  "
+              }
+            ]
+          },
+          {
+            "type": "CallExpression",
+            "start": 425,
+            "end": 456,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 425,
+              "end": 448,
+              "object": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 433,
+                "name": "document"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 434,
+                "end": 448,
+                "name": "getElementById"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 449,
+                "end": 455,
+                "value": "root",
+                "raw": "'root'"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

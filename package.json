@@ -1,0 +1,35 @@
+{
+  "name": "compo_tree",
+  "version": "1.0.0",
+  "description": "Component Builder - Tree",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p",
+    "nstart": "node server.js",
+    "wstart": "webpack-dev-server --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "babel || true"
+  },
+  "author": "Chris Scoular",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "acorn": "^3.3.0",
+    "acorn-jsx": "^3.0.1",
+    "acorn-jsx-walk": "^1.0.1",
+    "express": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  }
+}

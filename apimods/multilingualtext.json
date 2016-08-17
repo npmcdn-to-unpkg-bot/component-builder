@@ -1,0 +1,19 @@
+{
+  "markdown": {
+    "en_herrorford": {
+      "text": "not an error object",
+      "msg": "Msg",
+      "stack": "Stack"
+    },
+    "en_slashColon": {
+      "read": "Failed to open file: "
+    },
+    "en_lingo": {
+      "get": "Failed to look up translation: "
+    },
+    "he_herrorford": {
+      "text": "רחוב האופה",
+      "msg": "קפה ארומה"
+    }
+  }
+}
